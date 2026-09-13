@@ -26,14 +26,14 @@ export function HeroSection() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur-sm">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-[#ff8700]" />
             </span>
             Now recruiting new members
           </div>
 
           <h1 className="font-heading text-5xl font-bold leading-[0.95] tracking-tight text-balance sm:text-7xl">
             Welcome to{' '}
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="bg-[#ff8700] bg-clip-text text-transparent">
               Henzo
             </span>
           </h1>
@@ -47,7 +47,7 @@ export function HeroSection() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button
               size="lg"
-              className="group font-medium"
+              className="group bg-[#ff8700] font-medium"
               nativeButton={false}
               render={
                 <a
@@ -73,7 +73,7 @@ export function HeroSection() {
 
           <div className="mt-12 flex items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <Users className="h-4 w-4 text-primary" />
+              <Users className="h-4 w-4 text-[#ff8700]" />
               <span>
                 <span className="font-semibold text-foreground"></span>{' '}
                 

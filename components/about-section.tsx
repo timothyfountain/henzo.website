@@ -27,7 +27,7 @@ export function AboutSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div>
-            <p className="mb-3 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+            <p className="mb-3 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-[#ff8700]">
               About Henzo
             </p>
             <h2 className="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl">
@@ -35,7 +35,7 @@ export function AboutSection() {
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground text-pretty">
               Henzo started as a small circle of friends who wanted roleplay to
-              feel real — with stakes, structure, and story. Years later,
+              feel real — with stakes, structure, and story. Months later,
               we&apos;ve grown into one of Roblox&apos;s most active roleplay
               communities, running regular operations, ceremonies, and events.
             </p>
@@ -51,7 +51,7 @@ export function AboutSection() {
                 key={pillar.title}
                 className="rounded-xl border border-border bg-card p-6 transition-colors hover:border-primary/40 sm:first:col-span-2"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/10 text-[#ff8700]">
                   <pillar.icon className="h-5 w-5" />
                 </div>
                 <h3 className="mt-4 font-heading text-lg font-semibold">
