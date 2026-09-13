@@ -59,7 +59,7 @@ function LeaderCard({ person }: { person: Leader }) {
 
       <dl className="relative mt-8 space-y-3 text-left">
         <div className="flex items-center gap-3 rounded-lg border border-border bg-secondary/40 px-4 py-3">
-          <MessageCircle className="size-5 shrink-0 text-primary" />
+          <MessageCircle className="size-5 shrink-0 text-[#ff8700]" />
           <div className="min-w-0">
             <dt className="text-xs uppercase tracking-wider text-muted-foreground">
               Discord
@@ -69,7 +69,7 @@ function LeaderCard({ person }: { person: Leader }) {
         </div>
 
         <div className="flex items-center gap-3 rounded-lg border border-border bg-secondary/40 px-4 py-3">
-          <Gamepad2 className="size-5 shrink-0 text-primary" />
+          <Gamepad2 className="size-5 shrink-0 text-[#ff8700]" />
           <div className="min-w-0">
             <dt className="text-xs uppercase tracking-wider text-muted-foreground">
               Roblox
@@ -79,7 +79,7 @@ function LeaderCard({ person }: { person: Leader }) {
         </div>
 
         <div className="flex items-center gap-3 rounded-lg border border-border bg-secondary/40 px-4 py-3">
-          <Mail className="size-5 shrink-0 text-primary" />
+          <Mail className="size-5 shrink-0 text-[#ff8700]" />
           <div className="min-w-0">
             <dt className="text-xs uppercase tracking-wider text-muted-foreground">
               Contact
@@ -104,7 +104,7 @@ export function LeadershipSection() {
     <section id="leadership" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-3 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+          <p className="mb-3 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-[#ff8700]">
             Leadership
           </p>
           <h2 className="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl">
