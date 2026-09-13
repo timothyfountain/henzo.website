@@ -30,6 +30,15 @@ const LEADERS: Leader[] = [
     roblox: 'poohesdffalt',
     email: 'pooh@henzo.lol',
   },
+  {
+    name: 'Nate',
+    role: 'Department Officer',
+    image: '/nate-avatar.webp',
+    alt: 'Nate :)',
+    discord: 'natefmsfounder',
+    roblox: 'MeCookieMonsterYum',
+    email: 'nate@henzo.lol',
+  },
 ]
 
 function LeaderCard({ person }: { person: Leader }) {
