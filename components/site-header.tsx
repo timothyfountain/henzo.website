@@ -54,20 +54,24 @@ export function SiteHeader( ) {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+        {/* Logo */}
         <a
           href="#top"
           aria-label="HENZO home"
           className="flex items-center gap-2"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-md bg-primary font-heading text-lg font-bold text-primary-foreground">
-            H
-          </span>
+          <img
+            src="/henzo-logo.png"
+            alt="HENZO logo"
+            className="h-9 w-auto object-contain"
+          />
 
           <span className="font-heading text-lg font-bold tracking-tight">
             HENZO
           </span>
         </a>
 
+        {/* Primary navigation */}
         <nav
           aria-label="Primary navigation"
           className="hidden items-center gap-8 md:flex"
@@ -83,6 +87,7 @@ export function SiteHeader( ) {
           ))}
         </nav>
 
+        {/* Quick links */}
         <div ref={menuRef} className="relative">
           <button
             type="button"
