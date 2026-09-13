@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description:
     'Henzo is a premium Roblox roleplay group. Discover our story, ranks, and leadership — then join the ranks.',
   generator: 'v0.app',
+  icons: {
+    icon: '/icon.png',
+  },
 }
 
 export const viewport: Viewport = {
