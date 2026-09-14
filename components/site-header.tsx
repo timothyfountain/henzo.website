@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Leadership', href: '#leadership' },
+  { label: 'Contact our Team', href: '#contact' },
 ]
 
 const QUICK_LINKS = [
