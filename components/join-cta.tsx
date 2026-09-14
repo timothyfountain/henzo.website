@@ -22,13 +22,13 @@ export function JoinCta() {
             nativeButton={false}
             render={
               <a
-                href="https://www.roblox.com/groups/99592843"
+                href="https://discord.gg/wDXmrEJp6k"
                 target="_blank"
                 rel="noopener noreferrer"
               />
             }
           >
-            Join Henzo on Roblox
+            Join Henzo on Discord
             <ArrowRight className="transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
