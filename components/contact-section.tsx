@@ -1,15 +1,19 @@
-import React from "react";
-
-export default function ContactButtons() {
+export function ContactSection() {
   return (
-    <div>
-      <a href="mailto:support.team@henzo.lol">
-        <button type="button">Contact Support</button>
+    <section id="contact" className="flex gap-4">
+      <a
+        href="mailto:support.team@henzo.lol"
+        className="rounded-md bg-black px-5 py-3 text-white transition-opacity hover:opacity-80"
+      >
+        Contact Support
       </a>
 
-      <a href="mailto:leadership.team@henzo.lol">
-        <button type="button">Contact Leadership</button>
+      <a
+        href="mailto:leadership.team@henzo.lol"
+        className="rounded-md border border-black px-5 py-3 text-black transition-opacity hover:opacity-80"
+      >
+        Contact Leadership
       </a>
-    </div>
-  );
+    </section>
+  )
 }
