@@ -13,6 +13,7 @@ export default function Page() {
       <HeroSection />
       <AboutSection />
       <LeadershipSection />
+      <ContactSection />
       <JoinCta />
       <SiteFooter />
     </main>
