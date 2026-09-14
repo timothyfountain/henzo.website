@@ -10,7 +10,7 @@ export function ContactSection() {
 
       <a
         href="mailto:leadership.team@henzo.lol"
-        className="rounded-md border border-black px-5 py-3 text-black transition-opacity hover:opacity-80"
+        className="rounded-md bg-black px-5 py-3 text-white transition-opacity hover:opacity-80"
       >
         Contact Leadership
       </a>
