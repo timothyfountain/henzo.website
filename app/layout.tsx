@@ -1,3 +1,4 @@
+tsx
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     'copyrighted-site-verification': 'fd4dc6985069e3c2',
   },
 }
+
 export const viewport: Viewport = {
   colorScheme: 'dark',
   themeColor: '#0b0e14',
@@ -49,3 +51,4 @@ export default function RootLayout({
     </html>
   )
 }
+
