@@ -23,8 +23,10 @@ export const metadata: Metadata = {
   icons: {
     icon: '/icon.png',
   },
+  other: {
+    'copyrighted-site-verification': 'fd4dc6985069e3c2',
+  },
 }
-
 export const viewport: Viewport = {
   colorScheme: 'dark',
   themeColor: '#0b0e14',
